@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="flex justify-between px-50 py-9 bg-zinc-900 text-white">
       <Link href={"/"} className="font-semibold">
-        Ricardo
+        {"</ricardo>"}
       </Link>
 
       <nav className="flex gap-6">

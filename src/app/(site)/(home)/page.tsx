@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-5 grid-rows-5 gap-4 px-30 bg-zinc-900 text-white">
+    <div className="grid grid-cols-5 grid-rows-5 gap-4 px-30 bg-zinc-900 text-white h-full">
       <div className="col-span-3 row-span-3 row-start-2">
         <div className="flex flex-col justify-evenly h-100">
           <h1 className="flex flex-col text-3xl gap-4">
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </div>
       <div className="col-span-2 row-span-3 col-start-4 row-start-2">
-        <Image src={"/icon-me-Photoroom.png"} width={600} height={600} alt="" />
+        <Image src={"/avatar-me.png"} width={400} height={300} alt="" />
       </div>
     </div>
   );
